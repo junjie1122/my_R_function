@@ -1,0 +1,28 @@
+---
+title: "WGCNA_info_summary"
+author: "junjie"
+format: pdf
+editor: visual
+---
+
+## WGCNA数据参数信息
+
+数据标准化方法 `r method`
+
+过滤方法 选择 `r filter_gene_method` 最大的前 `r keep_gene_num`
+
+样本数 `r nSamples`
+
+基因数 `r nGenes`
+
+相关系数计算方法 `r cor_type`
+
+power软阈值 `r power`
+
+网络类型 `r net_type`
+
+模块融合阈值 `r mergeCutHeight`
+
+核心基因筛选阈值 GS_threshold: `r GS_threshold` MM_threshold: `r MM_threshold`
+
+输出路径 `r out_path`
